@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  height: 100%; 
+  background:#eecaee;
+}
+
+.navbar li{
+  display: inline;
+  margin: 3rem;
+  }
+
+  .navbar li a {
+    background:#d073a0;
+    color: #404040;
+    text-decoration: none;
+  }
+
+  .navbar li a:hover {
+    color: #E4E836;
+  }
+
+  .navbar {
+    background:#d073a0;
+    min-height: 2.25rem; 
+    text-align: left;
+    line-height: 2.25rem;
+    border-top: 5px solid #303030 ;
+    border-bottom: 2px solid #303030 ;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  h1 {
+    background: #a373d0;
+    color: white;
+    margin: 0;
+    padding: 0rem 3rem;
+    text-align: left;
+    min-height: 10rem;
+    line-height: 10rem;
+    font-size: 8rem;
+    display: block;
+    min-height: 50px;
+  }
+
+  h2{
+    font-size: 3rem;
+    color: #303030;
+    margin: 0;
+  }
+
+  p{
+    color: #303030;
+    margin: 0;
+  }
+
+  .content{
+    min-height: 100%;
+    margin: 0rem 10rem;
+    background-color: white;
+    padding: 5rem;
+  }
+
+  .content > p {
+    margin: 2rem;
+  }
+
+  .single-photo {
+    margin: 2rem;
+  }
+
+
+  .footer {
+    background: #a373d0;
+    color: white;
+    height: 2.25rem; 
+    margin: 0;
+    text-align: left;
+    line-height: 2.25rem;
+    border-bottom: 5px solid #303030 ;
+    border-top: 2px solid #303030 ;
+    padding: 0rem 3rem;
+  }
+
+  .picture-with-side-text{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 5px solid #303030 ;
+  }
+
+  .picture-with-side-text .photo{
+    flex: 5;
+    padding: 2rem;
+    width: 100%; 
+    height: 100%; 
+  }
+
+  .picture-with-side-text .caption{
+    flex: 4;
+    padding: 2rem;
+  }
+
+
+.two-pictures{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.two-pictures > div{
+  flex: 1;
+  padding: 2rem;
+  width: 100%; 
+  height: 100%; 
+}
+
+#contacts{
+  padding: 2rem;
+  overflow-x:auto;
+}
+
+table{
+  max-width: 100%;
+  min-width: 100%;
+}
+
+
+table, th, td
+{
+border: 1px solid;
+border-collapse: collapse;
+}
+
+th, td{
+padding: 5px
+}
